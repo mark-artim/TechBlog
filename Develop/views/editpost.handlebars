@@ -1,0 +1,23 @@
+{{#if logged_in}}
+    <div>
+        <form class="form" id="edit-post-form">
+            <div class="form-group">
+                <label for="title" class="fw-bold">Edit Comment</label>
+                <input class="form-input" type="text" size="50" id="title" name="title" value="{{ title }}"/>
+            </div>
+            <div class="form-group">
+                    <span class="input-group-text">Description</span>
+                    <textarea class="form-control" id="description" name="description">{{ description }}</textarea>
+                </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit Changes</button>
+            </div>  
+        </form>
+    </div>
+    {{else}}
+    <div>
+        <p>You must be logged in to add a commment!</p>
+    </div>
+    {{/if}}
+
+    <script src="../js/editpost.js"></script>

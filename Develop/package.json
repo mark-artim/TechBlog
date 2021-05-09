@@ -1,0 +1,33 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "Tech Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-artim/TechBlog.git"
+  },
+  "author": "Mark Artim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mark-artim/TechBlog/issues"
+  },
+  "homepage": "https://github.com/mark-artim/TechBlog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap-icons": "^1.4.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.1",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}

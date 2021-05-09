@@ -1,0 +1,17 @@
+[
+  {
+    "title": "I Love Inquirer",
+    "description": "I wish I could just develop and then enter data in to command line tools. It reminds me of 10th grade in 1983. It's so refreshingly un-modern.",
+    "user_id": 1
+  },
+  {
+    "title": "NPM Inquirer ROCKS!",
+    "description": "You can ask like 50 questions and then painstakingly type your answers or use the arrow keys to select them!",
+    "user_id": 2
+  },
+  {
+    "title": "Web Pages on Way Out",
+    "description": "With command line tools and terminal - I do not think the world will use web pages much longer.",
+    "user_id": 3
+  }
+]

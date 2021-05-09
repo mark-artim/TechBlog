@@ -1,0 +1,27 @@
+[
+    {
+      "comment_text": "I agree! I could just wrap myself in a cocoon of inquirer sessions where I just respond to endless question in the command line.",
+      "user_id": 1,
+      "post_id": 1
+    },
+    {
+      "comment_text": "Does anyone know where I can get any Inquirer branded apparel??",
+      "user_id": 2,
+      "post_id": 1
+    },
+    {
+      "comment_text": "I once had a job where they just wanted me to develop new AI code and I said - wait? What? WHere's the Inquirer stuff??? I gave my notice that day.",
+      "user_id": 3,
+      "post_id": 1
+    },
+    {
+        "comment_text": "I love bash and really miss the DOS prompt. Damn you Windows.",
+        "user_id": 3,
+        "post_id": 2
+      },{
+        "comment_text": "GUI shmoo-eeee. That's all I have to say.",
+        "user_id": 3,
+        "post_id": 3
+      }
+  ]
+  
