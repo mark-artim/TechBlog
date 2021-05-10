@@ -80,21 +80,20 @@ router.get('/', async (req, res) => {
       const post = postData.get({ plain: true });
   
       const commentData = await Comment.findAll({
-          // include: [
-          // {
-          //   model: User,
-          //   attributes: ['name'],
-          // },
-          // ],  
+          include: [
+          {
+            model: User,
+            attributes: ['name'],
+          },
+          ],  
           where: {
               post_id: req.params.id
           },
       });
       const comments = commentData.map((comment) => comment.get({ plain: true }));
-
+      // console.log('>>>>>>>>>>',comments)
       if (req.session.user_id == post.user_id) {
           var showDelete = true;
-        //   console.log('req.session.user_id: '+ req.session.user_id + 'post.user_id: '+post.user_id+'???: '+showDelete);
       };
 
       res.render('post', {
