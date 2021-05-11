@@ -7,7 +7,7 @@ This application provides teh infrastructure for a technology blog. It allows us
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Sample of the Tech Blog application:<br><br>
-![Tech BLog Sample Page](./screenshot2.jpg)
+![Tech BLog Sample Page](AppScreenshot.jpg)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -32,7 +32,8 @@ This application is straightforward. You may view posts and comments without bei
 - Add comments to other people's posts.
 
 <br>
-The live site can be reached at: [TechBlog](https://github.com/mark-artim/TechBlog)
+
+## The live site can be reached by clicking this link: [TechBlog](https://serene-gorge-88856.herokuapp.com/)
 
 
 ## Credits
